@@ -3,6 +3,7 @@
 A collection of projects demonstrating skills in low-level programming, systems programming, and network security. These were completed as part of my security program.
 
 **Author:** Benjamin Day
+
 **Date:** 2022
 
 ---
