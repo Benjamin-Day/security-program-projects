@@ -1,0 +1,109 @@
+Sample of Terminal Output
+
+┌──(ben㉿kali)-[~/Desktop/demo]
+└─$ ls -l                           
+total 8
+drwx------ 8 ben ben 4096 Feb 25 11:35 folder093
+-rw-r--r-- 1 ben ben 2358 Feb 25 11:34 MalwareSampleSorter.py
+                                                                                                                                                                                   
+┌──(ben㉿kali)-[~/Desktop/demo]
+└─$ python3 MalwareSampleSorter.py  
+Enter the folder to sort: folder093
+  └── folder093
+          └── sub0bf
+          │       └── file04a33.txt
+          │       └── file01c12.mpp
+          │       └── file02bf2.zip
+          │       └── file01206.mal
+          │       └── file03d36.txt
+          │       └── file018fd.zip
+          │       └── sub051
+          │               └── file02327.mpp
+          │               └── file04646.worm
+          │               └── file00941.worm
+          │               └── file016aa.mpp
+          │               └── file032d1.zip
+          └── sub006
+          │       └── file0056c.zip
+          │       └── file037dc.mpp
+          │       └── file046d7.zip
+          │       └── file018a6.evp
+          │       └── file024d9.zip
+          └── sub090
+          │       └── file002a1.worm
+          │       └── file021cd.txt
+          │       └── file02a67.zip
+          │       └── file03390.txt
+          │       └── file00cca.txt
+          │       └── file034f3.mal
+          │       └── sub03e
+          │               └── file02558.txt
+          │               └── file0134b.worm
+          │               └── file006a9.evp
+          │               └── file001d7.evp
+          │               └── file02efc.evp
+          │               └── file014d7.mal
+          │               └── sub0be
+          │                       └── file033d4.mal
+          │                       └── file045d0.mal
+          │                       └── file00af3.txt
+          │                       └── file028bb.txt
+          └── sub05f
+          │       └── file01d52.mpp
+          │       └── file0043f.mpp
+          │       └── file04843.mpp
+          │       └── file01104.txt
+          │       └── file02656.worm
+          │       └── file01bdf.txt
+          │       └── sub0a2
+          │               └── file004ce.mpp
+          │               └── file00191.zip
+          │               └── file02d5e.evp
+          │               └── file03b04.evp
+          │               └── file020d5.evp
+          └── sub0e9
+          │       └── file02dea.mal
+          │       └── file02633.mal
+          │       └── file02047.evp
+          │       └── file00d90.mpp
+          │       └── file02192.txt
+          └── sub07c
+          │       └── file02775.txt
+          │       └── file0454f.mpp
+          │       └── file0366a.txt
+          │       └── file009be.zip
+                                                                                                                                                                                   
+┌──(ben㉿kali)-[~/Desktop/demo]
+└─$ ls -l
+total 32
+drwxr-xr-x 2 ben ben 4096 Feb 25 11:36 evp
+drwx------ 8 ben ben 4096 Feb 25 11:35 folder093
+drwxr-xr-x 2 ben ben 4096 Feb 25 11:36 mal
+-rw-r--r-- 1 ben ben 2358 Feb 25 11:34 MalwareSampleSorter.py
+drwxr-xr-x 2 ben ben 4096 Feb 25 11:36 mpp
+drwxr-xr-x 2 ben ben 4096 Feb 25 11:36 txt
+drwxr-xr-x 2 ben ben 4096 Feb 25 11:36 worm
+drwxr-xr-x 2 ben ben 4096 Feb 25 11:36 zip
+                                                                                                                                                                                   
+┌──(ben㉿kali)-[~/Desktop/demo]
+└─$ cd txt        
+                                                                                                                                                                                   
+┌──(ben㉿kali)-[~/Desktop/demo/txt]
+└─$ ls -l
+total 52
+-rw-r--r-- 1 ben ben 200 Mar 12  2022 009abf80f1b3a0a4d713b8a6e3315ef0acfa46b8a3ba2ddee507b0c6d75f4f3e.txt
+-rw-r--r-- 1 ben ben 200 Feb 26  2020 0bd9cec1651588098f667352d9c97bf6a108c4ed90572f60cf635cd47f246375.txt
+-rw-r--r-- 1 ben ben 200 Feb 25 11:35 1eb487138fb0998bdfb5cc2c0c4b6f17e1bb7dfa35cc3b06218b02261d3ba9cb.txt
+-rw-r--r-- 1 ben ben 200 Feb 25 11:35 43637ab8e47223b2f4010e3aef70ce6745de0d4bd25f5aca9d8efc7f21e45e0a.txt
+-rw-r--r-- 1 ben ben 200 Feb 25 11:35 728a6791e4c0fa270e2781fc96fae835d42dde5d28a620217eb843432d88fe2e.txt
+-rw-r--r-- 1 ben ben 200 Apr 15  2020 8025a6cbe244c90516ac6989fb30528de2db14878ccc2fd186078cb859aa313e.txt
+-rw-r--r-- 1 ben ben 200 Mar 23  2021 82e42030667ff50afd2cb3cde5cfd89a86c72fb6a5ebe92d62a4354bc49d5ef2.txt
+-rw-r--r-- 1 ben ben 200 Mar  8  2019 aef015ff8b55748ae9ab1e84489a9e584c93749af9b2ee700bc41d982e7d8e2d.txt
+-rw-r--r-- 1 ben ben 200 May  1  2020 b5c8f0fbe7c4fbe0c4fc34cdac343e765e0d28275c5234d3f3108c11ecf49ada.txt
+-rw-r--r-- 1 ben ben 200 Feb 27  2021 bf4734e8e12baa4dd3abd01bf31fb1d81c91b880aef875eaf949f60fecb50abb.txt
+-rw-r--r-- 1 ben ben 200 Mar 11  2022 c74e0652ee12177525127360bbc2d7b3d8af90786c275cd6ba29ca277e451cd8.txt
+-rw-r--r-- 1 ben ben 200 Feb 25 11:35 eb72b9d62cfc07864a8943243a7ca9c42108afc99e4f6a33b5f66aa5bcc9921d.txt
+-rw-r--r-- 1 ben ben 200 Apr  8  2021 f44c8178e66bd215e9b4b73e7fa8d981c1e0995d6bc0dd841fd2d72c85dab107.txt
+                                                                                                                                                                                   
+┌──(ben㉿kali)-[~/Desktop/demo/txt]
+└─$ 
